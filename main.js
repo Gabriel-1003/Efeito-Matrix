@@ -1,4 +1,3 @@
-
 const canvas = document.getElementById('matrix-canvas');
 const ctx = canvas.getContext('2d');
 
@@ -35,7 +34,7 @@ function draw() {
   const textWidth = ctx.measureText('Gabriel').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('Gabriel Mendonça Machado', x, y);
+  ctx.fillText('Gabriel', x, y);
 
   requestAnimationFrame(draw);
 }
